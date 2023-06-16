@@ -9,11 +9,11 @@ Administrators can download this scripted module of cmdlets from the IntelliFlas
 Make sure that the following pre-requisites are met before installing the PowerShell ToolKit:
 
 - Windows System Requirement:
-    - Windows 7 and above (32-bit or 64-bit) or Windows Server 2008 R2 and higher versions.
+    - Windows 10 and above (32-bit or 64-bit) or Windows Server 2016 and higher versions.
 - PowerShell:
-    - PowerShell 3 is available by default on Windows Server 2012 or Windows 8.
-    - For older Windows, for example, Windows 7 or Windows Server 2008R2, you need to install PowerShell 3.
-    - For newer Windows, for example, Windows Server 2016 has PowerShell 5.1 by default. Since PowerShell 5.1 is backward compatible with PowerShell 3, so no change is needed.
+    - Microsoft Powershell 7.0 and above.
+- Microsoft .NET Framework:
+    - Microsoft .NET Framework 4.62 and above.
 - Powershell ToolKit connects to an array with TLS 1.2 from a Windows TLS 1.2 capable host machine.
 - REST API requirements:
     - ToolKit connects to array's Web API 2.1 through 2.4 without error.
